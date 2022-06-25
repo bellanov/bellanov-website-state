@@ -2,7 +2,7 @@
 # Manage Terraform state remotely in a Storage bucket.
 terraform {
   backend "gcs" {
-    bucket = "bellanov-website-state-dev-dwu9ink4gayjw4a"
+    bucket = "bellanov-website-state-dev-z38fxftdjalkbtq"
     prefix = "terraform"
   }
 }
